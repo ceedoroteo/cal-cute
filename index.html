@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ceedoroteo">
+    <title>Cal-cute Calculator App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="https://img.freepik.com/free-vector/cute-rabbit-with-duck-working-laptop-cartoon-illustration_56104-471.jpg?w=900&t=st=1715335400~exp=1715336000~hmac=1c1c4b1b70d72830a599199740c245a4aee00ccdb43e5089c4e78d52b2409d34" type="image/png">
+
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+        <div class="buttons">
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('+')">+</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('-')">-</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('*')">*</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('.')">.</button>
+            <button onclick="backspace()">⌫</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="appendToDisplay('/')">/</button>
+        </div>
+        <footer>
+                    <p>Cal-cute by <a href="https://github.com/ceedoroteo">ceedoroteo</a> on github © 2024</p>
+                    <p>Photo from: <a href="https://www.freepik.com/free-vector/cute-rabbit-with-duck-working-laptop-cartoon-illustration_12573643.htm#query=cute%20computer&position=3&from_view=keyword&track=ais&uuid=75d94384-30e7-4d1c-bdea-6810cfabcad5">Image by mamewmy</a> on Freepik</p>
+                </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

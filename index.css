@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/free-vector/cute-rabbit-with-duck-working-laptop-cartoon-illustration_56104-471.jpg?w=900&t=st=1715335400~exp=1715336000~hmac=1c1c4b1b70d72830a599199740c245a4aee00ccdb43e5089c4e78d52b2409d34");
+     background-size: 50%; /* Let the background image be its original size */
+    background-repeat: repeat; /* Repeat the background image */
+    background-position: center; /* Center the background image */
+    background-color: #ffe5b4; /* Peach background color */
+    margin: 0;
+}
+
+.calculator {
+    background-color: #f8d7da;
+    border-radius: 20px; /* Rounded corners */
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Slight shadow */
+    width: 350px; /* Larger size */
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    text-align: right; /* Text alignment to right */
+    background-color: #fff; /* White background */
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
+
+button {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #e83e8c;
+    color: white;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #d6327d;
+}
+
+.history {
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 16px;
+    overflow-wrap: break-word;
+}
+
+footer {
+    background-color: #ffb6c1; /* Pink background color */
+    border-radius: 0 0 20px 20px; /* Rounded corners only at the bottom */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Center text */
+    margin-top: 20px; /* Spacing from the calculator */
+    font-family: 'Indie Flower', cursive; /* Use the Indie Flower font */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+    font-size: 14px; /* Adjust font size */
+    color: #fff; /* White text color */
+}
+}
